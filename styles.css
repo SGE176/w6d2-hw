@@ -24,19 +24,22 @@ header {
 
 /* Navigation */
 .main-menu {
-    margin-left: 227px;
+    margin-left: 225px;
     font-weight: 400;
 }
 .main-menu ul li {
     list-style-type: none;
     display: inline-block;
     float: left;
-    padding-left: 25px;
+    padding-left: 21px;
     padding-right: 25px;
     border-left: 1px solid rgba(202, 204, 202, 0.6);
     line-height: 100px;
     text-transform: uppercase;
     font-size: 14px;
+    font-size: 14px;
+    height: 82px;
+    position: relative;
 }
 .main-menu ul li a {
     text-decoration: none;
@@ -67,10 +70,12 @@ main h1 {
 main h2 {
     font-size: 1.7em;
 }
+.text{
+    width: 100%;
+}
 
 /* Partners */
 section {
-    width: 100%;
     background-color: #4288C3;
 }
 section #partners {  
