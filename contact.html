@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , shrink-to-fit = no" />
+    <title>Cliffs Web Page</title>
+    <link rel="Stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body id="contact">
+    <header>
+        <!--  -->
+        <div class="container-fluid sticky-top">
+            <div class="navbar-main">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <div class="logo">
+                            <a class="navbar-brand" href="#">
+                                <img class="" src="images/logo.png" />
+                            </a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <div class="main-menu">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="cliffs.html">Cliffs</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="activities.html">Activities</a>
+                                    </li>
+                                    <li class="nav-item active">
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content-->
+    <main id="contactpage">
+        <h1>Contacting Us</h1>
+        <p>
+            You can drop by the visitors information center at the cliff site that
+            you plan on visiting. They are open 7 days a week from 8.00AM to 5.00PM.
+            You can also contact us directly if you need additional information
+            about the Cliffs, Hours of Operations, Facilities or questions about
+            this site using one of the following:
+        </p>
+
+        <div class="contactinfo">
+            <div class="phone">
+                <span>Phone:</span>
+                <span>(800)GCLIFFS</span>
+            </div>
+            <div class="email">
+                <span>Email:</span>
+                <span>info@greatcliffs.com</span>
+            </div>
+        </div>
+
+        <form action="/contact" method="post">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <div id="formcontainer">
+                    <div class="textbox">
+                        <label>Name:</label>
+                        <input type="text" name="name" placeholder="John Doe" />
+                        <label>Email:</label>
+                        <input type="email" name="email" placeholder="johndoe@gmail.com" />
+                        <label>Phone:</label>
+                        <input type="text" name="phone" placeholder="xxx-xxx-xxxx" />
+                    </div>
+
+                    <div class="radios">
+                        <label>How should we contact you?</label>
+                        <input type="radio" name="contact" value="email" checked />Email
+                        <input type="radio" name="contact" value="phone" />Phone
+                    </div>
+
+                    <div class="selectmenu">
+                        <label>Which Cliff are you inquiring?</label>
+                        <select>
+                            <option>West Cliff</option>
+                            <option>North Cliff</option>
+                            <option>East Cliff</option>
+                            <option>South Cliff</option>
+                        </select>
+                    </div>
+
+                    <div class="commentbox">
+                        <label>How did you hear about us:</label>
+                        <textarea rows="5" cols="30"></textarea>
+                    </div>
+                    <!-- Random Codes -->
+                    <div class="randomcode">
+                        <input type="text" id="codeentered" name="randomcode" placeholder="Enter characters" />
+                        <p id="codes"></p>
+                    </div>
+                    <div id="button">
+                        <button type="button" id="submit" class="btn btn-primary m-2">
+                            Inquire
+                            <i class="fa fa-pencil" title="Edit"></i>
+                        </button>
+                        <!-- <input type="submit" id="submit" value="Inquire" /> -->
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <!-- End Main Contact-->
+
+    <section>
+        <div id="partners">
+            <!--<div class="container">-->
+            <ul class="row">
+                <div class="col-sm-6 col-md-4 col-lg-2 my-sm-3 my-lg-0">
+                    <li class="partner">
+                        <img src="/images/partners/partner-bustour.png" alt="Partner Bus Tours" />
+                    </li>
+                </div>
+        
+                <div class="col-sm-6 col-md-4 col-lg-2 my-sm-3 my-lg-0">
+                    <li class="partner">
+                        <img src="/images/partners/partner-cabinrental.png" alt="Partner Cabin Rental" />
+                    </li>
+                </div>
+        
+                <div class="col-sm-6 col-md-4 col-lg-2 my-sm-3 my-lg-0">
+                    <li class="partner">
+                        <img src="/images/partners/partner-campingadv.png" alt="Partner Camping Adventure" />
+                    </li>
+                </div>
+        
+                <div class="col-sm-6 col-md-4 col-lg-2 my-sm-3 my-lg-0">
+                    <li class="partner">
+                        <img src="/images/partners/partner-collegetours.png" alt="Partner College Tours" />
+                    </li>
+                </div>
+        
+                <div class="col-sm-6 col-md-4 col-lg-2 my-sm-3 my-lg-0">
+                    <li class="partner">
+                        <img src="/images/partners/partner-rentalbike.png" alt="Partner Bike Rentals" />
+                    <li>
+                </div>
+        
+                <div class="col-sm-6 col-md-4 col-lg-2 my-sm-3 my-lg-0">
+                    <li class="partner">
+                        <img src="/images/partners/partner-tourgroup.png" alt="Partner Tour Group" />
+                    </li>
+                </div>
+            </ul>
+            <!--</div>-->
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div id="nondisclaimer">
+                <div class="copy">&copy; Copyright 2021 :: GreatCliffs.com</div>
+                <div class="social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
+            </div>
+        </div>
+        <!-- End nondisclaimer row-->
+        <div class="row">
+            <div id="disclaimer">
+                <p>
+                    This website is designed and created solely for educational purposes
+                    only at Westcliff University. All contents are not intended for any
+                    commercial gain or use.
+                </p>
+            </div>
+        </div>
+        <!-- End Disclaimer Row-->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="js/randomcodes.js"></script>
+</body>
+
+</html>
